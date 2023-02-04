@@ -3,7 +3,10 @@
 <html>
     <head>
         <title>Super Epic Project - Login</title>
-        <link href="login_styles.css" rel="stylesheet">	
+        <script type="text/javascript" src="js/md5.js"></script>
+        <script type="text/javascript" src="js/code.js"></script>
+        <link href="css/login_styles.css" rel="stylesheet">
+        <link rel="stylesheet" media="screen" href="https://fontlibrary.org//face/minecraftia" type="text/css"/>
         <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
     </head>
     <body id="background">
@@ -23,10 +26,10 @@
 							<br />
 							<h1 id="heading">LOGIN</h1><br />
 							<div id="input_text">
-								<label id="input_label">   USERNAME</label><input type="text" id="loginName" placeholder="Username"/><br />
+								<label id="input_label">USERNAME</label><input type="text" id="loginName" placeholder="Username"/><br />
 							</div>
 							<div id="input_text">
-								<label id="input_label">PASSWORD </label><input type="password" id="loginPassword" placeholder="Password"/><br />
+								<label id="input_label">PASSWORD</label><input type="password" id="loginPassword" placeholder="Password"/><br />
 							</div>
 							<button id="button" class="buttons" onclick="doLogin()">LOGIN</button>
 						</div>
@@ -41,16 +44,20 @@
 							<br />
 							<h1 id="heading">REGISTER</h1><br />
 							<div id="input_text">
-								<label id="input_label">FIRST NAME </label><input type="text" id="loginFirst" placeholder="First Name"/><br />
+								<label id="input_label">FIRST NAME:</label>
+								<input type="text" id="loginFirst" placeholder="First Name"/><br />
 							</div>
 							<div id="input_text">
-								<label id="input_label">LAST NAME </label><input type="text" id="loginLast" placeholder="Last Name"/><br />
+								<label id="input_label">LAST NAME:</label>
+								<input type="text" id="loginLast" placeholder="Last Name"/><br />
 							</div>
 							<div id="input_text">
-								<label id="input_label">USERNAME </label><input type="text" id="loginName" placeholder="Username"/><br />
+								<label id="input_label">USERNAME:</label>
+								<input type="text" id="loginName" placeholder="Username"/><br />
 							</div>
 							<div id="input_text">
-								<label id="input_label">PASSWORD </label><input type="password" id="loginPassword" placeholder="Password"/><br />
+								<label id="input_label">PASSWORD:</label>
+								<input type="password" id="loginPassword" placeholder="Password"/><br />
 							</div>
 							<button id="button" class="buttons" onclick="doRegister()">REGISTER</button>
 							<span id="loginResult"></span>
