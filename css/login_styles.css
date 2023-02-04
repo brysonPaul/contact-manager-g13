@@ -1,6 +1,6 @@
 #background
 {
-	background-image: url("stone_bricks.png");
+	background-image: url("../images/stone_bricks.png");
 }
 
 #title_border
@@ -8,7 +8,7 @@
 	width: fit-content;
 	height: fit-content;
 	margin: auto;
-	background-image: url("spruce_log.png");
+	background-image: url("../images/spruce_log.png");
 	float: center;
 	padding-left: 30px;
 	padding-right: 30px;
@@ -24,13 +24,13 @@
 	margin: auto;
 	padding: 20px;
 	text-align: center;
-	background-image: url("spruce_planks.png");
+	background-image: url("../images/spruce_planks.png");
 	float: center;
 }
 
 #title
 {
-    font-size: 100px;
+    font-size: 80px;
     width: 100%;
 	float: center;
     margin-top: 5px;
@@ -38,7 +38,7 @@
 	margin-left: 5px;
 	margin-right: 5px;
     text-align: center;
-    font-family: 'Ubuntu', sans-serif;
+    font-family: 'MinecraftiaRegular', sans-serif;
     color: #FFFFFF;
 }
 
@@ -79,7 +79,7 @@
 	height: 300px;
 	margin: auto;
 	border: #000000;
-	background-image: url("spruce_planks.png");
+	background-image: url("../images/spruce_planks.png");
 	text-align: center;
 }
 
@@ -88,7 +88,7 @@
 	width: fit-content;
 	height: fit-content;
 	margin: auto;
-	background-image: url("spruce_log.png");
+	background-image: url("../images/spruce_log.png");
 	float: center;
 	padding-left: 30px;
 	padding-right: 30px;
@@ -98,13 +98,13 @@
 
 #heading
 {
-    font-size: 40px;
+    font-size: 35px;
     width: 100%;
 	height: 20%;
 	margin-top: 20px;
 	margin-bottom: 0px;
     text-align: center;
-    font-family: 'Ubuntu', sans-serif;
+    font-family: 'MinecraftiaRegular', sans-serif;
     color: #FFFFFF;
 }
 
@@ -119,21 +119,21 @@
 
 #input_label 
 {
-    font-size: 20px;
+    font-size: 15px;
     width: 100%;
 	margin-left: 0px;
 	margin-right: 10px;
 	margin-top: 20px;
 	margin-bottom: 20px;
     text-align: center;
-    font-family: 'Ubuntu', sans-serif;
+    font-family: 'MinecraftiaRegular', sans-serif;
     color: #FFFFFF;
 }
 
 #button{
     font-size: 20px;
-    text-align: center;
-    font-family: 'Ubuntu', sans-serif;
+    text-align: left;
+    font-family: 'MinecraftiaRegular', sans-serif;
     color: #FFFFFF;
     background-color: #482843;
 }
