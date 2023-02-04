@@ -1,0 +1,267 @@
+#background
+{
+        background-image: url("../images/stone_bricks.png");
+}
+
+#title_border
+{
+        width: fit-content;
+        height: fit-content;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 40px;
+        margin-bottom: 50px;
+        background-image: url("../images/spruce_log.png");
+        float: center;
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+}
+
+#title_box
+{
+        display: table;
+        width: fit-content;
+        height: fit-content;
+        margin: auto;
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-top: 0px;
+        padding-bottom: 0px;
+        text-align: center;
+        background-image: url("../images/spruce_planks.png");
+        float: center;
+}
+
+#title
+{
+    font-size: 80px;
+    width: 100%;
+        float: center;
+    margin: 0px;
+    text-align: center;
+    font-family: 'MinecraftiaRegular', sans-serif;
+    color: #FFFFFF;
+}
+
+#contactsBoxBorder
+{
+        width: fit-content;
+        height: fit-content;
+        margin: auto;
+        background-image: url("../images/spruce_log.png");
+        float: center;
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+}
+
+#contactsBox
+{
+        display: table;
+        width: fit-content;
+        height: fit-content;
+        margin: auto;
+        padding: 20px;
+        text-align: center;
+        background-image: url("../images/spruce_planks.png");
+        float: center;
+}
+
+.contactRow
+{
+        content: "";
+        display: table;
+        width: 100%;
+        clear: both;
+}
+
+.contactCol
+{
+        content:"";
+        float: left;
+        width: 20%;
+        display: table;
+        height: fit-content;
+}
+
+.contact
+{
+        width: 250px;
+        height: 400px;
+        background-image: url("../images/birch_planks.png");
+        float: center;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        margin-left: 10px;
+        margin-right: 10px;
+}
+
+.contactText
+{
+    font-size: 15px;
+    width: 100%;
+        float: center;
+    margin-top: 5px;
+        margin-bottom: 5px;
+        margin-left: 5px;
+        margin-right: 5px;
+    text-align: center;
+    font-family: 'MinecraftiaRegular', sans-serif;
+    font-weight: bold;
+    color: #000000;
+}
+
+.inputSearchCol
+{
+        float: left;
+        width: 40%;
+        height: fit-content;
+}
+
+.inputButtonCol
+{
+        float: left;
+        width: 20%;
+        height: fit-content;
+}
+
+#loginDiv
+{
+    /*font-size: 30px;
+    width: 70%;
+    margin-left: 15%;
+    padding: 25px;*/
+    width: 30%;
+    margin: auto;
+}
+
+#label{
+    font-size: 40px;
+    width: 100%;
+    margin: 2% 5%;
+    text-align: center;
+    font-family: 'MinecraftiaRegular', sans-serif;
+    color: #FFFFFF;
+}
+
+.buttons{
+    font-size: 20px;
+    margin: 10px, 10px;
+    text-align: center;
+    font-family: 'MinecraftiaRegular', sans-serif;
+    color: #FFFFFF;
+    background-color: #482843;
+}
+
+.buttons:hover{
+    background-color: #00d5124f;
+    color: #FFFFFF;
+    opacity: 70%;
+}
+
+#searchLabel{
+    font-size: 40px;
+    margin: 2% 5%;
+    font-family: 'MinecraftiaRegular', sans-serif;
+    color: #FFFFFF;
+}
+
+#search{
+    height: 30px;
+    width: 100%;
+    margin-left: 0px;
+        margin-right: 0px;
+        margin-bottom: auto;
+        margin-top: auto;
+}
+
+#searchButton{
+    font-size: 20px;
+    margin-left: 5%;
+    text-align: center;
+    font-family: 'MinecraftiaRegular', sans-serif;
+    color: #FFFFFF;
+    background-color: #482843;
+}
+
+#logout_button
+{
+        font-size: 20px;
+    margin-left: 30px;
+        margin-right: auto;
+    text-align: center;
+    font-family: 'MinecraftiaRegular', sans-serif;
+    color: #FFFFFF;
+    background-color: #482843;
+}
+
+#nextButton
+{
+        font-size: 20px;
+    margin-right: 20px;
+        margin-left: auto;
+    text-align: center;
+    font-family: 'MinecraftiaRegular', sans-serif;
+    color: #FFFFFF;
+    background-color: #482843;
+}
+
+#searchButton
+{
+        font-size: 20px;
+    margin-right: 20px;
+        margin-left: auto;
+    text-align: center;
+    font-family: 'MinecraftiaRegular', sans-serif;
+    color: #FFFFFF;
+    background-color: #482843;
+}
+
+#add_button
+{
+    text-align: center;
+    font-family: 'MinecraftiaRegular', sans-serif;
+    color: #FFFFFF;
+    background-color: #482843;
+}
+
+.bottom_buttons
+{
+        font-size: 18px;
+        height: 40px;
+        width: 230px;
+        margin-left: auto;
+        margin-right: auto;
+}
+
+#userContacts{
+    /*visibility: hidden;*/
+}
+
+.contacts{
+    float: left;
+    margin: 2px 80px;
+}
+
+#contactsLabel{
+    font-size: 40px;
+    margin: 2% 5%;
+    font-family: 'MinecraftiaRegular', sans-serif;
+    color: #FFFFFF;
+}
+
+#contactButton{
+    font-size: 20px;
+    text-align: center;
+    font-family: 'MinecraftiaRegular', sans-serif;
+    color: #FFFFFF;
+    background-color: #482843;
+}
+
+.contactImage{
+    width: 210px;
+        margin-top: 20px;
+}
