@@ -9,13 +9,14 @@ $phone = $inData["phone"];
 $email = $inData["email"];
 $userId = $inData["userId"];
 $server = $inData["server"];
+$photo = $inData["photo"];
 
 $conn = new mysqli("localhost", "TheBeast", "WeLoveCOP4331", "COP4331");
 if ($conn->connect_error) {
 	returnWithError($conn->connect_error);
 } else {
-	$stmt = $conn->prepare("INSERT into Contacts (Name,Phone,Email,UserID,Server,Photo) VALUES(?,?,?,?,?,0)");
-	$stmt->bind_param("sssds", $name, $phone, $email, $userId, $server);
+	$stmt = $conn->prepare("INSERT into Contacts (Name,Phone,Email,UserID,Server,Photo) VALUES(?,?,?,?,?,?)");
+	$stmt->bind_param("sssdsd", $name, $phone, $email, $userId, $server, $photo);
 	$stmt->execute();
 	$stmt->close();
 	$conn->close();
