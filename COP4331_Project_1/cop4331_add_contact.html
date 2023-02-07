@@ -1,17 +1,33 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Facebook 2 - Home</title>
-        <link href="styles_cop.css" rel="stylesheet">	
+        <title>FaceBlock - Add Contact</title>
+        <link href="css/edit_styles.css" rel="stylesheet">	
+		<script type="text/javascript" src="js/code.js"></script>
+		<link rel="stylesheet" media="screen" href="https://fontlibrary.org//face/minecraftia" type="text/css"/>
         <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
     </head>
-    <body>
-        <h1 id="title">FACEBOOK 2</h1>
-        <label id="label">ADD CONTACT</label><br><br>
-        <label id="label">NAME: </label><input type="text" id="contactName" placeholder="First Name"/><br><br>
-        <label id="label">DATE OF BIRTH: </label><input type="text" id="contactDOB" placeholder="mm/dd/yyyy"/><br><br>
-        <label id="label">PHONE NUMBER: </label><input type="text" id="contactPhone" placeholder="###-###-####"/><br><br>
-        <label id="label">EMAIL: </label><input type="text" id="contactEmail" placeholder="name@site.com"/><br><br>
-        <button class='buttons' id="button" onclick="addContact()">ADD CONTACT</button>
+	<body id="background">
+        <div id="title_border">
+			<div id="title_box">
+				<h1 id="title">FACEBLOCK</h1><br />
+			</div>
+		</div>
+		<div class="sign_border">
+			<div class="sign">
+				<br>
+				<label id = "sign_title">ADD CONTACT</label><br><br>
+				<div class="textBlockDiv">
+					<label class="label">NAME: </label><input type="text" class="dlabel" id="contactName" placeholder="First Name"/><br><br>
+					<label class="label">SERVER: </label><input type="text"  class="dlabel" id="contactDOB" placeholder="Server Name"/><br><br>
+					<label class="label">PHONE NUMBER: </label><input type="text" class="dlabel" id="contactPhone" placeholder="###-###-####"/><br><br>
+					<label class="label">EMAIL: </label><input type="text" class="dlabel" id="contactEmail" placeholder="name@site.com"/><br><br>
+				</div>
+				<button class="buttons" onclick="addContact()">ADD CONTACT</button>
+				<button class="buttons" onclick="back()">BACK</button>
+				<br>
+				<span class="eText" id="addResult"></span>
+			</div>
+		</div>
     </body>
 </html>

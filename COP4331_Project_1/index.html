@@ -1,0 +1,81 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>FaceBlock - Login</title>
+	<script type="text/javascript" src="js/md5.js"></script>
+	<script type="text/javascript" src="js/code.js"></script>
+        <link href="css/login_styles.css" rel="stylesheet">
+	<link rel="stylesheet" media="screen" href="https://fontlibrary.org//face/minecraftia" type="text/css"/>
+        <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+    </head>
+    <body id="background">
+		<br /><br />
+		<div id="title_border">
+			<div id="title_box">
+				<h1 id="title">FACEBLOCK</h1><br />
+			</div>
+		</div>
+		<br /><br /><br />
+		<div class="row">
+			<div class="column">
+				<div class="break"></div>
+				<div class="subcolumn">
+					<div class="sign_border">
+						<div class="sign">
+							<br />
+							<h1 id="loginHeading">LOGIN</h1><br />
+							<div class="textBlockDiv">
+								<div id="input_text">
+									<input type="text" class="dlabel" id="loginName" placeholder="Username"/>
+									<label id="input_label">USERNAME:</label><br />
+								</div>
+								<div id="input_text">
+									<input type="password" class="dlabel" id="loginPassword" placeholder="Password"/>
+									<label id="input_label">PASSWORD:</label>
+								</div>
+								<image id="creeperFace" src="images/creeper_face.png"></image>
+							</div>
+							<button id="button" class="buttons" onclick="doLogin()">LOGIN</button>
+							<br />
+							<span class="eText" id="loginResult"></span>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="column">
+				<div class="break"></div>
+				<div class="subcolumn">
+					<div class="sign_border">
+						<div class="sign">
+							<br />
+							<h1 id="registerHeading">REGISTER</h1><br />
+							<div class="textBlockDiv">
+								<div id="input_text">
+									<input type="text" class="dlabel" id="loginFirst" placeholder="First Name"/>
+									<label id="input_label">FIRST NAME:</label><br />
+								</div>
+								<div id="input_text">
+									<input type="text" class="dlabel" id="loginLast" placeholder="Last Name"/>
+									<label id="input_label">LAST NAME:</label><br />
+								</div>
+								<div id="input_text">
+									<input type="text" class="dlabel" id="registerName" placeholder="Username"/>
+									<label id="input_label">USERNAME:</label><br />
+								</div>
+								<div id="input_text">
+									<input type="password" class="dlabel" id="registerPassword" placeholder="Password"/>
+									<label id="input_label">PASSWORD:</label><br />
+								</div>
+							</div>
+							<button id="button" class="buttons" onclick="doRegister()">REGISTER</button>
+							<br />
+							<span class="eText" id="registerResult"></span>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+    </body>
+</html>
+

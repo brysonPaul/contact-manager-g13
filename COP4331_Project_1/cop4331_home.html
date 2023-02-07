@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Facebook - Home</title>
+        <title>FaceBlock - Home</title>
         <link href="css/home_styles.css" rel="stylesheet">	
 	<script type="text/javascript" src="js/code.js"></script>
-	<script>listContactsOnLoad();</script>	
+	<script>listContactsOnLoad();</script>
 	<link rel="stylesheet" media="screen" href="https://fontlibrary.org//face/minecraftia" type="text/css"/>
         <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
     </head>
@@ -14,16 +14,22 @@
 				<h1 id="title">FACEBLOCK</h1><br />
 			</div>
 		</div>
-		
-	    	<button id="button" class="buttons" onclick="doLogout()">LOG OUT</button>
-	    
 		<div id="contactsBoxBorder">
 			<div id="contactsBox">
 				<div class="contactRow">
+					<div class="inputCol">
+						<input type="text" id="search" class="dlabel" placeholder="Enter a contact" value>
+						<button class="buttons" id="searchButton" onclick="search()">SEARCH</button>
+					</div>
+					<div class="inputCol">
+						<button id="logoutButton" class="buttons" onclick="doLogout()">LOG OUT</button>
+					</div>
+				</div>
+				<div class="contactRow" id = "mainRow">
 					<div style="display: flex;">
-						<div class="contactCol">
+						<div id="contactCol1">
 							<div class="contact" id = "contact1">
-								<image id="contactImage" src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png"></image>
+								<image class="contactImage" id="contactImage1" src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png"></image>
 								<br />
 								<label class="contactText" id="contactName1">name1</label>
 								<br />
@@ -32,14 +38,14 @@
 								<label class="contactText" id="contactPhone1">Phone1</label>
 								<br />
 								<label class="contactText" id="contactEmail1">Email1</label>
-								<br /><br />
-								<button id="contactButton" class="buttons" onclick="editPage(1)">EDIT</button>
-								<button id="contactButton" class="buttons" onclick="deleteContact()">DELETE</button>
+								<br />
+								<button id="editButton1" class="cbuttons" onclick="editPage(1)">EDIT</button>
+								<button id="deleteButton1" class="cbuttons" onclick="deleteContact()">DELETE</button>
 							</div>
 						</div>
-						<div class="contactCol">
+						<div id="contactCol2">
 							<div class="contact">
-								<image id="contactImage" src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png"></image>
+								<image class="contactImage" id="contactImage2" src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png"></image>
 								<br />
 								<label class="contactText" id="contactName2">name2</label>
 								<br />
@@ -48,14 +54,14 @@
 								<label class="contactText" id="contactPhone2">Phone2</label>
 								<br />
 								<label class="contactText" id="contactEmail2">Email2</label>
-								<br /><br />
-								<button id="contactButton" class="buttons" onclick="editPage(2)">EDIT</button>
-								<button id="contactButton" class="buttons" onclick="deleteContact()">DELETE</button>
+								<br />
+								<button id="editButton2" class="cbuttons" onclick="editPage(2)">EDIT</button>
+								<button id="deleteButton2" class="cbuttons" onclick="deleteContact()">DELETE</button>
 							</div>
 						</div>
-						<div class="contactCol">
+						<div id="contactCol3">
 							<div class="contact">
-								<image id="contactImage" src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png"></image>
+								<image class="contactImage" id="contactImage3" src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png"></image>
 								<br />
 								<label class="contactText" id="contactName3">name3</label>
 								<br />
@@ -64,14 +70,14 @@
 								<label class="contactText" id="contactPhone3">Phone3</label>
 								<br />
 								<label class="contactText" id="contactEmail3">Email3</label>
-								<br /><br />
-								<button id="contactButton" class="buttons" onclick="editPage(3)">EDIT</button>
-								<button id="contactButton" class="buttons" onclick="deleteContact()">DELETE</button>
+								<br />
+								<button id="editButton3" class="cbuttons" onclick="editPage(3)">EDIT</button>
+								<button id="deleteButton3" class="cbuttons" onclick="deleteContact()">DELETE</button>
 							</div>
 						</div>
-						<div class="contactCol">
+						<div id="contactCol4">
 							<div class="contact">
-								<image id="contactImage" src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png"></image>
+								<image class="contactImage" id="contactImage4" src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png"></image>
 								<br />
 								<label class="contactText" id="contactName4">name4</label>
 								<br />
@@ -80,14 +86,14 @@
 								<label class="contactText" id="contactPhone4">Phone4</label>
 								<br />
 								<label class="contactText" id="contactEmail4">Email4</label>
-								<br /><br />
-								<button id="contactButton" class="buttons" onclick="editPage(4)">EDIT</button>
-								<button id="contactButton" class="buttons" onclick="deleteContact()">DELETE</button>
+								<br />
+								<button id="editButton4" class="cbuttons" onclick="editPage(4)">EDIT</button>
+								<button id="deleteButton4" class="cbuttons" onclick="deleteContact()">DELETE</button>
 							</div>
 						</div>
-						<div class="contactCol">
+						<div id="contactCol5">
 							<div class="contact">
-								<image id="contactImage" src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png"></image>
+								<image class="contactImage" id="contactImage5" src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png"></image>
 								<br />
 								<label class="contactText" id="contactName5">name5</label>
 								<br />
@@ -96,22 +102,20 @@
 								<label class="contactText" id="contactPhone5">Phone5</label>
 								<br />
 								<label class="contactText" id="contactEmail5">Email5</label>
-								<br /><br />
-								<button id="contactButton" class="buttons" onclick="editPage(5)">EDIT</button>
-								<button id="contactButton" class="buttons" onclick="deleteContact()">DELETE</button>
+								<br />
+								<button id="editButton5" class="cbuttons" onclick="editPage(5)">EDIT</button>
+								<button id="deleteButton5" class="cbuttons" onclick="deleteContact()">DELETE</button>
 							</div>
 						</div>
 					</div>
 				</div>
 				<div class="contactRow">
 					<div class="inputCol">
-						<input type="text" id="search" placeholder="Enter a contact"><button id="searchButton" class="buttons" onclick="doSearch()">SEARCH</button>
+						<button id="addButton" class="buttons" onclick="addPage()">ADD NEW CONTACT</button>
 					</div>
 					<div class="inputCol">
-						<button id="button" class="buttons" onclick="loadContacts()">NEXT</button>
-					</div>
-					<div class="inputCol">
-						<button id="button" class="buttons" onclick="addContact()">ADD NEW CONTACT</button>
+						<button id="nextButton" class="buttons" onclick="listContacts(1)">NEXT</button>
+						<button id="backButton" class="buttons" onclick="listContacts(-1)">BACK</button>
 					</div>
 				</div>
 			</div>
