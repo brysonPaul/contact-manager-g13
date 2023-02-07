@@ -1,101 +1,126 @@
 #background
 {
-        background-image: url("../images/stone_bricks.png");
+	background-image: url("../images/stone_bricks.png");
 }
 
 #title_border
 {
-        width: fit-content;
-        height: fit-content;
-        margin-left: auto;
-        margin-right: auto;
-        margin-bottom: 0px;
-        margin-top: 50px;
-        background-image: url("../images/spruce_log.png");
-        float: center;
-        padding-left: 30px;
-        padding-right: 30px;
-        padding-top: 30px;
-        padding-bottom: 30px;
+	width: fit-content;
+	height: fit-content;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-top: 50px;
+	background-image: url("../images/spruce_log.png");
+	float: center;
+	padding-left: 30px;
+	padding-right: 30px;
+	padding-top: 30px;
+	padding-bottom: 30px;
 }
 
 #title_box
 {
-        display: table;
-        width: fit-content;
-        height: fit-content;
-        margin: auto;
-        padding: 20px;
-        text-align: center;
-        background-image: url("../images/spruce_planks.png");
-        float: center;
+	display: table;
+	width: fit-content;
+	height: fit-content;
+	margin: auto;
+	padding: 20px;
+	text-align: center;
+	background-image: url("../images/spruce_planks.png");
+	float: center;
 }
 
 #title
 {
     font-size: 80px;
     width: 100%;
-        float: center;
+	float: center;
     margin-top: 5px;
-        margin-bottom: 5px;
-        margin-left: 5px;
-        margin-right: 5px;
+	margin-bottom: 5px;
+	margin-left: 5px;
+	margin-right: 5px;
     text-align: center;
     font-family: 'MinecraftiaRegular', sans-serif;
     color: #FFFFFF;
 }
 
-#button{
+.buttons{
     font-size: 20px;
-    text-align: center;
+    text-align: center;\
+	margin-left: 5px;
+	margin-right: 5px;
     font-family: 'MinecraftiaRegular', sans-serif;
     color: #FFFFFF;
-    background-color: #482843;
+    background-color: #3B2713;
+}
+
+.textBlockDiv
+{
+	width: 70%;
+	height: 173px;
+	text-align: right;
+	margin-right: auto;
+	margin-left: auto;
 }
 
 .sign
 {
-        width: 500px;
-        height: 300px;
-        margin: auto;
-        border: #000000;
-        background-image: url("../images/spruce_planks.png");
-        text-align: center;
+	width: 500px;
+	height: 310px;
+	margin: auto;
+	border: #000000;
+	background-image: url("../images/spruce_planks.png");
+	text-align: center;
+}
+.eText
+{
+        font-size: 10px;
+    margin: 2% 5%;
+    font-family: 'MinecraftiaRegular', sans-serif;
+    color: #000000;
 }
 
 .sign_border
 {
-        width: fit-content;
-        height: fit-content;
-        margin-left: auto;
-        margin-right: auto;
-        margin-top: 50px;
-        margin-bottom: auto;
-        background-image: url("../images/spruce_log.png");
-        float: center;
-        padding-left: 30px;
-        padding-right: 30px;
-        padding-top: 30px;
-        padding-bottom: 30px;
+	width: fit-content;
+	height: fit-content;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 50px;
+	margin-bottom: auto;
+	background-image: url("../images/spruce_log.png");
+	float: center;
+	padding-left: 30px;
+	padding-right: 30px;
+	padding-top: 30px;
+	padding-bottom: 30px;
 }
+	
 
 .buttons:hover{
-    background-color: #00d5124f;
-    color: #FFFFFF;
-    opacity: 50%;
+    opacity: 85%;
 }
 
 .label
 {
-        font-size: 15px;
-    margin: 2% 5%;
+	font-size: 15px;
+    margin: 0px 0px;
+	float: left;
     font-family: 'MinecraftiaRegular', sans-serif;
     color: #FFFFFF;
 }
-
+.dlabel
+{
+	font-size: 10px;
+    margin: 0px 0px;
+	float: right;
+    font-family: 'MinecraftiaRegular', sans-serif;
+    color: #000000;
+}
 #sign_title
 {
-        font-size: 25px;
+	font-size: 25px;
     margin: 2% 5%;
     font-family: 'MinecraftiaRegular', sans-serif;
     color: #FFFFFF;

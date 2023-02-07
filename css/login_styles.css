@@ -42,6 +42,39 @@
     color: #FFFFFF;
 }
 
+#creeperFace
+{
+    width: 40px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 0px;
+	display: block;
+}
+
+.textBlockDiv
+{
+	width: 70%;
+	height: 140px;
+	text-align: right;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.dlabel
+{
+	font-size: 11px;
+	float: right;
+    margin: 0px 0px;
+    font-family: 'MinecraftiaRegular', sans-serif;
+    color: #000000;
+}
+.eText
+{
+	font-size: 10px;
+    margin: 2% 5%;
+    font-family: 'MinecraftiaRegular', sans-serif;
+    color: #000000;
+}
 .row
 {
 	content: "";
@@ -96,12 +129,24 @@
 	padding-bottom: 30px;
 }
 
-#heading
+#loginHeading
 {
     font-size: 35px;
     width: 100%;
 	height: 20%;
-	margin-top: 20px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+    text-align: center;
+    font-family: 'MinecraftiaRegular', sans-serif;
+    color: #FFFFFF;
+}
+
+#registerHeading
+{
+    font-size: 35px;
+    width: 100%;
+	height: 20%;
+	margin-top: 0px;
 	margin-bottom: 0px;
     text-align: center;
     font-family: 'MinecraftiaRegular', sans-serif;
@@ -119,12 +164,13 @@
 
 #input_label 
 {
+	float: left;
     font-size: 15px;
-    width: 100%;
+    width: fit-content;
 	margin-left: 0px;
 	margin-right: 10px;
-	margin-top: 20px;
-	margin-bottom: 20px;
+	margin-top: 0px;
+	margin-bottom: 0px;
     text-align: center;
     font-family: 'MinecraftiaRegular', sans-serif;
     color: #FFFFFF;
@@ -135,11 +181,9 @@
     text-align: left;
     font-family: 'MinecraftiaRegular', sans-serif;
     color: #FFFFFF;
-    background-color: #482843;
+    background-color: #3B2713;
 }
 
 .buttons:hover{
-    background-color: #00d5124f;
-    color: #FFFFFF;
-    opacity: 50%;
+    opacity: 85%;
 }
